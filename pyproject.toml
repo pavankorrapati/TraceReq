@@ -3,18 +3,16 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "auto-req"
+name = "runtime-deps"                   # PyPI package name (pip install runtime-deps)
 version = "0.1.0"
-description = "Automatic dependency detection and installer for Python and PyTest projects."
+description = "AST-driven dynamic dependency resolution and runtime provisioning engine."
 readme = "README.md"
+authors = [{ name = "Pavan Kumar Korrapati" }]
 requires-python = ">=3.10"
-authors = [
-    { name = "Pavan_Korrapati" }
+dependencies = [
+    # Add any external libraries your tool requires (e.g., "requests")
 ]
-dependencies = []
 
 [project.scripts]
-auto-req = "auto_req.cli:main"
-
-[project.entry-points."pytest11"]
-auto_req = "auto_req.pytest_plugin"
+runtime-deps = "auto_req.cli:main"      # Full command name
+rtdeps = "auto_req.cli:main"            # Short, fast-to-type command alias

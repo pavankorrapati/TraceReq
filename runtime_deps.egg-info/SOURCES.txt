@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+auto_req/__init__.py
+auto_req/analyzer.py
+auto_req/cli.py
+auto_req/installer.py
+auto_req/mapper.py
+auto_req/pytest_plugin.py
+runtime_deps.egg-info/PKG-INFO
+runtime_deps.egg-info/SOURCES.txt
+runtime_deps.egg-info/dependency_links.txt
+runtime_deps.egg-info/entry_points.txt
+runtime_deps.egg-info/top_level.txt

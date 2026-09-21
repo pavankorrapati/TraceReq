@@ -1,3 +1,11 @@
+Metadata-Version: 2.4
+Name: runtime-deps
+Version: 0.1.0
+Summary: AST-driven dynamic dependency resolution and runtime provisioning engine.
+Author: Pavan Kumar Korrapati
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
 TraceReq source project
         │
         │ python -m build
