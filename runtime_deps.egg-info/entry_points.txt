@@ -1,0 +1,3 @@
+[console_scripts]
+rtdeps = auto_req.cli:main
+runtime-deps = auto_req.cli:main
