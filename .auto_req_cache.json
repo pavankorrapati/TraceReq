@@ -1,0 +1,7 @@
+{
+  "auto_req": "auto-req",
+  "pytest": "pytest",
+  "requests": "requests",
+  "sys": "sys",
+  "playwright": "playwright"
+}
