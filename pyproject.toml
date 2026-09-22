@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "runtime-deps"                   # PyPI package name (pip install runtime-deps)
-version = "0.1.1"                       # Bumped version to push updated metadata to PyPI
+version = "0.1.2"                       # Bumped version to push updated metadata to PyPI
 description = "AST-driven dynamic dependency resolution and runtime provisioning engine."
 readme = "README.md"
 authors = [{ name = "Pavan Kumar Korrapati" }]
