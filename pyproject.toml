@@ -3,21 +3,20 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "runtime-deps"                   # PyPI package name (pip install runtime-deps)
-version = "0.1.1"                       # Bumped version to push updated metadata to PyPI
-description = "AST-driven dynamic dependency resolution and runtime provisioning engine."
+name = "reqora"
+version = "0.1.0"
+description = "AST-driven Python dependency discovery, resolution, and runtime provisioning engine."
 readme = "README.md"
-authors = [{ name = "Pavan Kumar Korrapati" }]
-requires-python = ">=3.10"
-dependencies = [
-    # Add any external libraries your tool requires (e.g., "requests")
+authors = [
+    { name = "Pavan Kumar Korrapati" }
 ]
+requires-python = ">=3.10"
+dependencies = []
 
 [project.urls]
-"Homepage" = "https://github.com/pavankorrapati/TraceReq"
-"Repository" = "https://github.com/pavankorrapati/TraceReq.git"
+Homepage = "https://github.com/pavankorrapati/TraceReq"
+Repository = "https://github.com/pavankorrapati/TraceReq.git"
 "Bug Tracker" = "https://github.com/pavankorrapati/TraceReq/issues"
 
 [project.scripts]
-runtime-deps = "auto_req.cli:main"      # Full command name
-rtdeps = "auto_req.cli:main"            # Short, fast-to-type command alias
+reqora = "auto_req.cli:main"
