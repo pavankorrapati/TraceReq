@@ -1620,6 +1620,7 @@ def install_cli_dependency(
         cwd=str(installer.project_root),
         capture_output=True,
         text=True,
+        check=True
     )
 
     if process.stdout:
@@ -1848,6 +1849,7 @@ def execute_command(
         env=environment,
         capture_output=True,
         text=True,
+        check=True
     )
 
 
